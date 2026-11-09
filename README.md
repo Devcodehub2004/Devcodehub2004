@@ -1,105 +1,69 @@
-
 <div align="center">
 
 # DEVIDATTA MALLICK
-### Building useful AI. Turning ideas into working applications.
+### AI/ML Engineer (Fresher) · Building practical GenAI applications
 
-**Aspiring AI/ML Engineer · Python & SQL · Generative AI · FastAPI**
+**Python · SQL · FastAPI · LLM applications · RAG · Docker**
 
-Integrated BCA+MCA · Utkal University · Bhubaneswar, India
+BCA completed 2026 · MCA pursuing (expected 2028) · Utkal University · Bhubaneswar, India
 
-[Projects](#selected-work) · [Recent builds](#recent-builds) · [Toolkit](#technical-toolkit)
+[Featured AI Projects](#featured-ai-projects) · [Engineering Toolkit](#engineering-toolkit) · [GitHub](https://github.com/Devcodehub2004?tab=repositories)
 
 </div>
 
 ---
 
-## About me
+## About
 
-I build practical AI applications and the backend systems behind them—from local LLM chat and meeting intelligence to a personal cloud demo.
+I develop practical AI applications in Python—from a local LLM chat service to speech transcription and retrieval workflows. My portfolio emphasizes reproducible setup instructions, backend integration, persisted data and documented trade-offs.
 
-Currently pursuing an integrated **BCA+MCA at Utkal University**, I'm developing my skills in Python, generative AI, APIs, databases, and testing.
+Seeking **entry-level AI Engineer, Generative AI Engineer and AI/ML trainee/intern roles**, preferably **on-site or hybrid** in Bhubaneswar/Odisha, Kolkata, Pune, Bengaluru or Hyderabad. I am currently pursuing an MCA, expected in 2028.
 
-**Open to fresher and internship opportunities in AI, generative AI, and Python backend development.**
+## Featured AI projects
 
-## Selected work
+### 01 · [OpenLLM Studio](https://github.com/Devcodehub2004/OpenLLM-Studio)
+**Local LLM inference · Streaming chat · SQLite persistence**
 
-### 01 / HomeSphere
-**Personal cloud · Latest project**
+Streamlit dashboard backed by FastAPI, Ollama and Qwen2.5 1.5B. Supports streamed replies, persistent conversations, model switching and history export. [Recorded validation](https://github.com/Devcodehub2004/OpenLLM-Studio/blob/main/VALIDATION.md): 30 passing tests on 3 November 2026 with mocked Ollama, not a live inference benchmark.
 
-A personal cloud demo with uploads, previews, nested folders, recent uploads, a recycle bin, and expiring download links.
+`Python` · `FastAPI` · `Ollama` · `SQLite` · `Streamlit` · `Docker Compose`
 
-`FastAPI` `PostgreSQL` `Alembic` `Docker Compose` `React frontend`
+### 02 · [MeetMind](https://github.com/Devcodehub2004/MeetMind)
+**Speech recognition · Meeting intelligence · Retrieval**
 
-[Explore HomeSphere →](https://github.com/Devcodehub2004/HomeSphere)
+Meeting/video audio transcription using speech AI, LLM summarization, and ChromaDB-backed retrieval in a Streamlit app. Local/API setup required; no verified public hosted demo claimed.
 
----
+`Python` · `Whisper` · `LangChain` · `ChromaDB` · `Streamlit`
 
-### 02 / OpenLLM Studio
-**Local AI · Persistent conversations**
+### 03 · [NexusResearch-AI](https://github.com/Devcodehub2004/NexusResearch-AI)
+**Four-stage AI research pipeline · Search → Read → Write → Critique**
 
-A local chat workspace with streaming responses, installed-model switching, saved conversation history, and JSON export. Runs with Ollama without a cloud API key.
+Combines a Tavily-backed search tool, source-reading agent, report writer and AI critique chain. Includes saved run history and a Streamlit dashboard. AI critique is not independent fact verification.
 
-`Python` `FastAPI` `Ollama` `SQLite` `Streamlit`
+`Python` · `LangChain` · `Groq` · `Tavily` · `Streamlit`
 
-[Explore OpenLLM Studio →](https://github.com/Devcodehub2004/OpenLLM-Studio)
+## Other engineering project
 
----
+### [HomeSphere](https://github.com/Devcodehub2004/HomeSphere) · Personal cloud
+Self-hosted file management demo with FastAPI, PostgreSQL, authentication, nested folders, recycle bin, and Docker Compose. Demonstrates backend engineering and database design.
 
-### 03 / MeetMind
-**Speech processing · Meeting intelligence**
+`FastAPI` · `PostgreSQL` · `Alembic` · `Docker Compose`
 
-A meeting and video assistant for transcription, summarization, retrieval-based transcript questions, and document export.
+## Engineering toolkit
 
-`Python` `Streamlit` `LangChain` `ChromaDB` `Speech processing`
-
-[Explore MeetMind →](https://github.com/Devcodehub2004/MeetMind)
-
----
-
-### 04 / NexusResearch-AI
-**Research workflows · Generative AI**
-
-A research pipeline that searches sources, reads content, drafts reports, and generates AI critique through a live dashboard.
-
-`Python` `LangChain` `Groq` `Tavily` `Streamlit`
-
-[Explore NexusResearch-AI →](https://github.com/Devcodehub2004/NexusResearch-AI)
-
----
-
-**Also built:** [CiviLink](https://github.com/Devcodehub2004/CIVILINK)—a civic issue reporting platform with authentication, database persistence, and real-time updates.
-
-## Recent builds
-
-*Updated 29 October 2026*
-
-| Date | Repository milestone |
-| :--- | :--- |
-| **29 Oct 2026** | Published HomeSphere: personal cloud demo with file management, folders, recycle bin, and expiring share links. |
-| **20 Oct 2026** | Published OpenLLM Studio: local Ollama chat with persistent history, streaming, Docker, and CI configuration. |
-
-## Technical toolkit
-
-| Focus | Tools |
-| :--- | :--- |
-| Programming | Python · SQL |
-| AI applications | LLM APIs · Ollama · LangChain · RAG · ChromaDB |
-| Backend & data | FastAPI · PostgreSQL · SQLite · Alembic |
-| Development | Docker Compose · Git · GitHub · pytest · VS Code · Linux / WSL |
+| Area | Technologies |
+| --- | --- |
+| Programming | Python, SQL |
+| AI applications | Ollama, LLM APIs, LangChain, Whisper, RAG, ChromaDB |
+| Backend and data | FastAPI, PostgreSQL, SQLite, REST APIs |
+| Engineering workflow | Docker Compose, Git, GitHub, pytest, WSL |
 
 ## Currently learning
 
-- Advanced Python and API design
-- AI workflow testing and evaluation
 - Machine learning foundations and PyTorch
+- LLM evaluation and retrieval quality measurement
+- Python DSA and interview-oriented problem solving
 
 ---
 
-<div align="center">
-
-**Practical projects · Clear explanations · Continuous learning**
-
-[Browse all repositories](https://github.com/Devcodehub2004?tab=repositories)
-
-</div>
+**Explore my [repositories](https://github.com/Devcodehub2004?tab=repositories) for implementation details, setup steps and limitations.**
